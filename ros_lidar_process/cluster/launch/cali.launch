@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg = "cluster" type = "cluster" name = "cluster"/>
+
+    <node pkg = "passthrough" type = "passthrough" name = "passthrough"/>
+
+</launch>
